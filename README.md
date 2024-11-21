@@ -1,6 +1,8 @@
-# Exercício para aula de API do MBA Engenharia de Software
+# MBA Engenharia de Software 2024
 
-## Integrantes:
+## Exercício para aula de API & Web Application
+
+### Integrantes:
 - Felipe Matos de Carvalho
 - Ian Pinto de Almeida
 - João Marcello Ortega de Araujo
