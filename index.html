@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correio Elegante</title>
+    <style>
+
+        .card {
+            width: 600px;
+            height: 200px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #000;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .faixa {
+            width: 100%;
+            height: 60px;
+            background-color: #f00;
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            text-align: center;
+            color: #fff;
+        }
+    
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="faixa">
+            <p id="frase"></p>
+            <script>
+                const msgs = [
+                    "Você é a razão do meu sorriso, e eu mal posso esperar para vê-lo de novo.",
+                    "Se o amor fosse um crime, eu estaria preso por ter me apaixonado por você.",
+                    "Eu não sou cego, mas consigo ver minha vida sem você.",
+                    "Posso te roubar um beijo? Prometo devolver com juros.",
+                    "Você não é Google, mas tem tudo o que eu procurava."
+                ];
+
+                let i = 0;
+                const intervalo = setInterval(() => {
+                    frase.innerHTML = msgs[i];
+                    i = (i+1) % msgs.length;
+                }, 5000);
+
+            </script>
+        </div>
+    </div>
+    
+</body>
+<script></script>
+</html>
+
